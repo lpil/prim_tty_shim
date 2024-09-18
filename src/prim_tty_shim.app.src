@@ -1,0 +1,14 @@
+{application, prim_tty_shim,
+ [{description, "Low-level stdio API using prim_tty"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.
